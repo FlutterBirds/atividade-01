@@ -1,0 +1,54 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.center {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.input {
+    padding: 20px;
+    background-color: orange;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    text-align: right;
+    padding-right: 15px;
+    margin-left: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+    display: block;
+}
+
+.green {
+    background-color: green;
+}
+
+.green > p {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
